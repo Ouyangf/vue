@@ -1,0 +1,151 @@
+{
+  "syb_status": "000",
+  "syb_info": "Success.",
+  "syb_providerSeqNo": "73407d0c-7f25-49ab-b09d-b3efff73e048",
+  "syb_consumerSeqNo": "b6a48bc8-fc3a-48ea-86f7-e0bebb01e93c",
+  "syb_data": {
+    "userName": "用户姓名",
+    "fbpReportMessageBean": {
+      "id": 3,
+      "userId": "XXXXX",
+      "startTime": "2018-08-08",
+      "endTime": "2018-08-08",
+      "createTime": "2018-08-08",
+      "fbpReportSummary": "报告小结",
+      "reportName": "报告名称",
+      "content": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "url": "http://192.168.1.36:8080/bloodpressurereport/getBpReport.mv?userId=aa&createTime=2018-08-08"
+    },
+    "fbpAvgWeekBean": {
+      "id": 2,
+      "fbpReportMessageId": "2",
+      "sysAmAvg": 70,
+      "diaAmAvg": 70,
+      "bpmAmAvg": 70,
+      "sysPmAvg": 70,
+      "diaPmAvg": 70,
+      "bpmPmAvg": 70,
+      "sysSumAvg": 70,
+      "diaSumAvg": 70,
+      "bpmSumAvg": 70
+    },
+    "fbpAvgDayBeanList": [{
+      "id": 1,
+      "fbpReportMessageId": "2",
+      "sysAmAvg": 120,
+      "diaAmAvg": 80,
+      "bpmAvg": 90,
+      "sysPmAvg": 70,
+      "diaPmAvg": 90,
+      "dateShow": "08-08",
+      "dayOfWeek": "1",
+      "bpmAmAvg": 90,
+      "bpmPmAvg": 60
+    }, {
+      "id": 1,
+      "fbpReportMessageId": "2",
+      "sysAmAvg": 80,
+      "diaAmAvg": 90,
+      "bpmAvg": 50,
+      "sysPmAvg": 90,
+      "diaPmAvg": 90,
+      "dateShow": "08-09",
+      "dayOfWeek": "1",
+      "bpmAmAvg": 90,
+      "bpmPmAvg": 90
+    }, {
+      "id": 1,
+      "fbpReportMessageId": "2",
+      "sysAmAvg": 90,
+      "diaAmAvg": 90,
+      "bpmAvg": 90,
+      "sysPmAvg": 50,
+      "diaPmAvg": 90,
+      "dateShow": "08-10",
+      "dayOfWeek": "1",
+      "bpmAmAvg": 110,
+      "bpmPmAvg": 90
+    }, {
+      "id": 1,
+      "fbpReportMessageId": "2",
+      "sysAmAvg": 90,
+      "diaAmAvg": 90,
+      "bpmAvg": 90,
+      "sysPmAvg": 90,
+      "diaPmAvg": 90,
+      "dateShow": "08-08",
+      "dayOfWeek": "1",
+      "bpmAmAvg": 90,
+      "bpmPmAvg": 90
+    }, {
+      "id": 1,
+      "fbpReportMessageId": "2",
+      "sysAmAvg": 90,
+      "diaAmAvg": 90,
+      "bpmAvg": 90,
+      "sysPmAvg": 90,
+      "diaPmAvg": 90,
+      "dateShow": "08-08",
+      "dayOfWeek": "1",
+      "bpmAmAvg": 90,
+      "bpmPmAvg": 90
+    }, {
+      "id": 1,
+      "fbpReportMessageId": "2",
+      "sysAmAvg": 90,
+      "diaAmAvg": 90,
+      "bpmAvg": 90,
+      "sysPmAvg": 90,
+      "diaPmAvg": 90,
+      "dateShow": "08-08",
+      "dayOfWeek": "1",
+      "bpmAmAvg": 90,
+      "bpmPmAvg": 90
+    }, {
+      "id": 1,
+      "fbpReportMessageId": "2",
+      "sysAmAvg": 90,
+      "diaAmAvg": 90,
+      "bpmAvg": 90,
+      "sysPmAvg": 90,
+      "diaPmAvg": 90,
+      "dateShow": "08-08",
+      "dayOfWeek": "1",
+      "bpmAmAvg": 90,
+      "bpmPmAvg": 90
+    }],
+    "fbpAvgMinMaxBean": {
+      "id":null,
+      "fbpReportMessageId":"405",
+      "sysAmMaxAvg":"0/null",
+      "diaAmMaxAvg":"0/null",
+      "bpmAmMaxAvg":"0/null",
+      "sysAmMinAvg":"0/null",
+      "diaAmMinAvg":"0/null",
+      "bpmAmMinAvg":"0/null",
+      "sysPmMaxAvg":"78/01-04 17:00",
+      "diaPmMaxAvg":"55/01-05 17:00",
+      "bpmPmMaxAvg":"70/01-03 17:00",
+      "sysPmMinAvg":"0/null",
+      "diaPmMinAvg":"0/null",
+      "bpmPmMinAvg":"0/null"
+    },
+    "fbpMeasureDataBean": [{
+      "dataBloodPressureId": "11111",
+      "date": "2018-08-08",
+      "time": "12:2",
+      "bloodPressure": "116/66",
+      "bpm": 8,
+      "isAvg": "1",
+      "isTakeMedicine": "1"
+    },{
+      "dataBloodPressureId": "11111",
+      "date": "2018-08-08",
+      "time": "12:3",
+      "bloodPressure": "116/66",
+      "bpm": 8,
+      "isAvg": "1",
+      "isTakeMedicine": "1"
+    }]
+  }
+}
