@@ -21,34 +21,35 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-@import '../../../assets/style/varibles.styl'
+  @import '../../../assets/style/varibles.styl'
   .header
     display: flex
     color: #fff
     background: $bgColor
     .header-left
-      width: .64rem
+      width: 2.64rem
+      padding-top: 12px
       float: left
       .back-icon
-        text-align:center
-        font-size:.4rem
+        text-align: center
+        font-size: 1.4rem
     .header-input
       flex: 1
-      height: .64rem
-      line-height: .64rem
+      height: 2.64rem
+      line-height: 2.64rem
       margin-top: .12rem
-      margin-left: .2rem
+      margin-left: -0.5rem
       padding-left: .2rem
       background: #fff
-      border-radius: .1rem
+      border-radius: 1.1rem
       color: #ccc
     .header-right
-      min-width: 1.04rem
-      padding: 0 .1rem
+      min-width: 3.04rem
+      padding: 15px 0.1rem
       float: right
       text-align: center
       color: #fff
       .arrow-icon
-        margin-left:-.04rem
-        font-size:.24rem
+        margin-left: -.04rem
+        font-size: .24rem
 </style>
